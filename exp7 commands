@@ -1,3 +1,5 @@
+sudo adduser ansible
+sudo usermod -aG sudo ansible
 ssh -keygen
 ssh-copy-id "system-name" @127.0.1.1
 sudo apt update
