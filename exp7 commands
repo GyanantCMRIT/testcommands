@@ -7,4 +7,6 @@ sudo apt install ansible -y
 ansible --version
 sudo mkdir -p /etc/ansible
 sudo nano /etc/ansible/hosts
+[local]
+localhost ansible_connection=local
 ansible-inventory --list-y
