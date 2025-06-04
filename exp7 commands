@@ -1,0 +1,8 @@
+ssh -keygen
+ssh-copy-id "system-name" @127.0.1.1
+sudo apt update
+sudo apt install ansible -y
+ansible --version
+sudo mkdir -p /etc/ansible
+sudo nano /etc/ansible/hosts
+ansible-inventory --list-y
